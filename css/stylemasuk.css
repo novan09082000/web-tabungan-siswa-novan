@@ -1,0 +1,195 @@
+/*css reset*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*end css reset*/
+
+.container{
+	width: 1350px;
+	height: 100px;
+	margin: auto;
+	padding: 0;
+	position: absolute;
+}
+.header{
+	width: auto;
+	margin: auto;
+	height: 20px;
+	background-color: rgb(36,105,165);
+	padding: 20px;
+}
+.header li{
+	display: inline-block;
+	margin-right: 20px;
+}
+.header a{
+	text-decoration: none;
+	color:rgb(255,255,255);
+}
+.logo a{
+	height: 100px;
+	width: 100px;
+	background-size: 100px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	background-image: url(../img/abc.jpg);
+	text-indent: -999999999px;
+}
+.main{
+	padding: 100px;
+	background-color: #c5e5e7;
+}
+.main form{
+	margin: auto;
+	width: 500px;
+	height: 500px;
+	padding:-100px;
+	background-color: #ffffff;
+	border: 1px solid #eaeaea;
+	border-radius: 10px;
+}
+.judul{
+	width: 400px;
+	height: 50px;
+	margin: 10% auto 0 auto;
+	/*background-color: red;*/
+}
+.judul .masuk{
+	font-family: verdana;
+	font-size: 25px;
+	text-align: center;
+}
+.label1{
+	width:302px;
+	height: 22px;
+	/*background-color: red;*/
+	margin: 50px auto 1px auto;
+}
+.label1 label{
+	font-family: arial;
+	size: 24px;
+}
+.kotak1{
+	width:300px;
+	height: 32px;
+	/*background-color: red;*/
+	margin: 0 auto;
+}
+.kotak1 input{
+	border :1px solid #eaeaea;
+	border-radius: 5px;
+	width: 300px;
+	height:30px;
+	margin: auto;
+	padding-left: 5px;
+}
+
+.label2{
+	width:302px;
+	height: 22px;
+	/*background-color: red;*/
+	margin:10px auto 5px auto;
+}
+.label2 label{
+	font-family: arial;
+	size: 18px;
+}
+.kotak2{
+	width:302px;
+	height: 32px;
+	/*background-color: red;*/
+	margin:auto;
+}
+.kotak2 input{
+	border:1px solid #eaeaea;
+	border-radius: 5px;
+	width: 300px;
+	height: 30px;
+	margin: auto;
+	padding-left: 5px;
+}
+
+.ceklis{
+	width:302px;
+	height: 22px;
+	/*background-color: red;*/
+	margin:10px auto 5px auto;
+	font-family: arial;
+	font-size: 12px;
+}
+.daftar{
+	width: 300px;
+	height: 22px;
+	margin: 15px auto 0px auto;
+	font-family: arial;
+	font-size: 12px;
+}
+.tombol1{
+	width:100px;
+	height: 40px;
+	/*background-color: red;*/
+	margin: 60px auto 25% auto;
+}
+.tombol1 button{
+	width: 100px;
+	height: 40px;
+	background-color:rgb(36,105,165);
+	color:white;
+	border:0px solid rgb(36,105,165);
+	border-radius: 20px;
+	cursor: pointer;
+}
+.footer{
+	margin:auto;
+	width: auto;
+	height: 20px;
+	padding: 10px;
+	background-color: rgb(36,105,165);
+	text-align: center;
+	color: white; 
+}

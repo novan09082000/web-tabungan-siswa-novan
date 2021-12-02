@@ -1,0 +1,270 @@
+/*css reset*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*end css reset*/
+
+/*css clear fix*/
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+/*end css clear fix*/
+
+.container{
+	width: 1365px;
+	height: 500px;
+	margin: auto;
+	padding: 0;
+	position: absolute;
+}
+.header{
+	width: 1365px;
+	height: 75px;
+	margin: auto;
+	background-color: rgb(36,105,165);
+	
+}
+.header ul{
+	text-align: left;
+	display: inline;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.header ul li{
+	font : bold 14px  sans-serif;
+	display: inline-block;
+	position: relative;
+	padding: 25px 20px;
+}
+.header ul li a{
+	text-decoration: none;
+	padding: 25px 0px;
+	color: white;
+	font-size: 18px;
+}
+
+.header ul li:hover{
+	background:rgb(35,104,164);
+}
+
+.header ul li ul{
+	padding: 0;
+	position: absolute;
+	top: 70px;
+	left:0;
+	width: 250px;
+	display: none;
+	visibility: hidden;
+}
+
+.header ul li ul li{
+	background: rgb(36,105,165);
+	display: block;
+	text-align: center;
+}
+
+.header ul li ul li:hover{
+	background: lightblue;
+
+}
+
+.header ul li:hover ul{
+	display: block;
+	opacity: 1;
+	visibility: visible;
+}
+
+/*.header ul ul u
+.header a{
+	text-decoration: none;
+	color:rgb(255,255,255);
+}*/
+
+.logo{
+	width: 10px;
+	height: 10px;
+}
+.logo a{
+	width: 100px;
+	height: 10px;
+	background-size: 100px;
+	background-repeat: no-repeat;
+	display: block;
+	background-image: url(../img/abc.jpg);
+	text-indent: -999999999px;
+}
+
+/*.logo a {
+	height: 100px;
+	width: 100px;
+	background-size: 100px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	background-image: url(../img/abc.jpg);
+	text-indent: -999999999px;
+	margin:0;
+}*/
+
+.logout li{ 
+	margin-left:500px;
+}
+.judulsatu{
+	width: auto;
+	height: 100px;
+	background: #c5e5e7;
+	padding: 20px 75px 0px 130px;
+}
+
+.judulsatu h1{
+	font-family: arial;
+	font-size: 54px;
+}
+.juduldua{
+	width: auto;
+	height: 100px;
+	background: #c5e5e7;
+	padding: 20px 75px 0px 400px;
+}
+.juduldua h2{
+	font-family: arial;
+	font-size: 32px;
+}
+.main{
+	background: #c5e5e7;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.wrapper{
+	perspective: 800px;
+	-webkit-perspective: 800px;
+}
+.image{
+	height: 250px;
+	width: 240px;
+	border: 10px solid white; 
+	position: static;
+}
+.one{
+	background: url(../img/data.jpg);
+	background-size: 250px 300px;
+}
+.two{
+	background: url(../img/transaksi.jpg);
+	background-size: 250px 300px;
+}
+.three{
+	background: url(../img/laporan.jpg);
+	background-size: 250px 300px;
+}
+.four{
+	background: url(../img/aboutus.jpg);
+	background-size: 250px 300px;
+}
+.caption{
+	background-color: white;
+	height: 80px;
+	width: 250px;
+	font-size: 14px;
+	color: #1f2c5b;
+	font-family: 'montserrat medium',sans-serif;
+	padding-left: 10px;
+	padding-top: 15px;
+	transform-style: preserve-3d;
+	transform: rotateX(-180deg);
+	transform-origin: top;
+	z-index: -1;
+	position: static;
+	transition: 1.5s;
+	backface-visibility: hidden;
+}
+.caption span{
+	font-size: 20px;
+}
+.wrapper:hover .caption{
+	transform: rotateX(0deg);
+
+}
+
+.footer{
+	margin:auto;
+	width: auto;
+	height: 20px;
+	padding: 10px;
+	background-color: rgb(36,105,165);
+	text-align: center;
+	color: white; 
+}

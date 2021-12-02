@@ -1,0 +1,354 @@
+/*css reset*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*end css reset*/
+
+/*css clear fix*/
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+/*end css clear fix*/
+
+body{
+	position: absolute;
+}
+.container{
+	width: 1350px;
+	height: 100px;
+	margin: auto;
+	padding: 0;
+	position: absolute;
+}
+/*.header{
+	width: auto;
+	margin: auto;
+	height: 20px;
+	background-color: rgb(36,105,165);
+	padding: 20px;
+}
+.header li{
+	display: inline-block;
+	margin-right: 20px;
+}
+.header a{
+	text-decoration: none;
+	color:rgb(255,255,255);
+}
+.logo a{
+	height: 100px;
+	width: 100px;
+	background-size: 100px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	background-image: url(../img/abc.jpg);
+	text-indent: -999999999px;
+}*/
+.main{
+	padding: 100px;
+	background-color: #c5e5e7;
+}
+.main form{
+	margin: auto;
+	width: 800px;
+	height: auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-right: 50px;
+	padding-left: 50px;
+	background-color: #ffffff;
+	border: 1px solid #eaeaea;
+	border-radius: 10px;
+	box-sizing: border-box;
+}
+.main .mainbagian1{
+	width: 325px;
+	height: 300px;
+	/*background-color: salmon;*/
+	float: left;
+	margin-right: 10px;
+}
+.main .judul{
+	/*width:500px;*/
+	height: 50px;
+	/*background-color: red;*/
+	/*margin:10% auto 0 auto;*/
+	float: top;
+}
+.main .judul .daftar{
+	font-size: 25px;
+	font-family: verdana;
+	text-align: center;
+}
+.nama{
+	margin: 50px auto 5px auto;
+}
+.nama .label1{
+	font-family: verdana;
+	size: 24px;
+	margin-bottom: 5px; 
+/*	background-color: red;*/
+}
+.nama .input1 input{
+	border:1px solid #aaa;
+	border-radius: 5px;
+	width: 300px;
+	height: 30px;
+	margin-bottom: 5px;
+	padding: 0;
+}
+.nim{
+	margin: 5px auto 5px auto;
+}
+.nim .label2{
+	font-family: verdana;
+	size: 24px;
+	margin-bottom: 5px; 
+	/*background-color: red;*/
+}
+.nim .input2 input{
+	border:1px solid #aaa;
+	border-radius: 5px;
+	width: 300px;
+	height: 30px;
+	margin-bottom: 5px;
+	padding: 0;
+}
+.prodi {
+	margin: 5px auto 5px auto;
+}
+.prodi .label3 {
+	font-family: verdana;
+	size: 24px;
+	margin-bottom: 5px; 
+	/*background-color: red;*/
+	
+}
+.prodi select{
+	border:1px solid #aaa;
+	border-radius: 5px;
+	width: 300px;
+	height: 30px;
+	margin-bottom: 5px;
+	padding: 0;
+}
+
+.kelas .label4{
+	font-family: verdana;
+	size: 24px;
+	margin-bottom:5px;
+}
+
+
+.kelas .input4 input{
+	font-family: verdana;
+	font-size: 12px;
+	margin-bottom: 5px; 
+}
+
+.main .mainbagian2{
+	width :325px;
+	height: 300px;
+	/*background-color: blue;*/
+	margin-left: 10px;
+	float:left;
+}
+.email{
+	margin: 50px auto 5px auto;
+}
+.email .label1{
+	font-family: verdana;
+	size: 24px;
+	margin-bottom: 5px; 
+	/*background-color: red;*/	
+}
+.email .input1 input{
+	border:1px solid #aaa;
+	border-radius: 5px;
+	width: 300px;
+	height: 30px;
+	margin-bottom: 5px;
+	padding: 0;	
+}
+
+.username{
+	margin: 5px auto 5px auto;
+}
+.username .label2{
+	font-family: verdana;
+	size: 24px;
+	margin-bottom: 5px; 
+	/*background-color: red;*/	
+}
+.username .input2 input{
+	border:1px solid #aaa;
+	border-radius: 5px;
+	width: 300px;
+	height: 30px;
+	margin-bottom: 5px;
+	padding: 0;	
+}
+
+.password{
+	margin: 5px auto 5px auto;
+}
+.password .label3{
+	font-family: verdana;
+	size: 24px;
+	margin-bottom: 5px; 
+	/*background-color: red;*/	
+}
+.password .input3 input{
+	border:1px solid #aaa;
+	border-radius: 5px;
+	width: 300px;
+	height: 30px;
+	margin-bottom: 5px;
+	padding: 0;	
+}
+
+.password2{
+	margin: 5px auto 5px auto;
+}
+
+.password2 .label4{
+	font-family: verdana;
+	size: 24px;
+	margin-bottom: 5px;
+}
+
+.password2 .input4 input{
+	border:1px solid #aaa;
+	border-radius: 5px;
+	width: 300px;
+	height: 30px;
+	margin-bottom: 5px;
+	padding: 0px;
+}
+
+.kirim{
+	height: 50px;
+	/*background-color: red;*/
+	margin-top: 20px;
+	width: 695px;
+	float: left;
+}
+.kirim .tombol{
+	margin-left: 150px;
+	margin-top: 20px;
+	float :left;
+}
+.kirim .tombol button{
+	border:1px solid rgb(36,105,165) ;
+	border-radius: 5px;
+	width: 100px;
+	height: 30px;
+	margin-bottom: 5px;
+	background-color:  rgb(36,105,165);
+	color : white;
+	padding: 0;	
+	cursor: pointer;
+}
+.kembali{
+	margin-left: 150px;
+	margin-top: 20px;
+	float: left;
+}
+.kembali button{
+	border:1px solid rgb(36,105,165) ;
+	border-radius: 5px;
+	width: 100px;
+	height: 30px;
+	margin-bottom: 5px;
+	background-color:  rgb(36,105,165);
+	color : white;
+	padding: 0;	
+	cursor: pointer;
+	
+}
+
+.kembali a{
+	text-decoration: none;
+}
+.kembali a:visited{
+	text-decoration: none;
+	color: white;
+}
+/*.footer{
+	margin:auto;
+	width: auto;
+	height: 20px;
+	padding: 10px;
+	background-color: rgb(36,105,165);
+	text-align: center;
+	color: white; 
+}*/
