@@ -17,6 +17,7 @@ Hallo Men Temen👋
   - [Deskripsi](#deskripsi)
   - [Demo Aplikasi](#demo-aplikasi)
   - [Cara Instalasi Aplikasi](#cara-instalasi-aplikasi)
+  - [Kontak](#kontak)
 
 ---
 
@@ -60,7 +61,19 @@ Untuk Login
    <img src="xampp_control.png" alt="xampp_control" style="width:480px;height:280px"/>
 
 
-3. Download Aplikasi ini dengan
+3. Download Aplikasi ini di github dengan klik `code` kemudian klik `Download ZIP`
+
+<img src="github.png" alt="github" style="width:480px;height:280px"/>
+
+4. Simpan ZIP yang sebelumnya download di `C:\xampp\htdocs`
+5. ekstrak file ZIP, seteleh itu rename folder nya dengan nama `uasjilid1`
+6. Terakhir, buka website nya di browser kesayangan anda dan isikan adress bar dengan alamat localhost/uastjilid1
+
+---
+## Kontak
+- Whatsapp :  [085721732955](wa.me/6285721732955)
+- Facebook :  [Novan Tiano](https://www.facebook.com/novan.tiano.5)
+- Github   :  [novan09082000](https://github.com/novan09082000)
 
 
 
